@@ -115,10 +115,13 @@ else:
     kurt_text = "lebih datar (platykurtic)"
 
 st.success(f"""
-Rata-rata GLU sebesar {round(glu.mean(),2)} dengan standar deviasi {round(glu.std(),2)}.
-Distribusi data {skew_text} dan bersifat {kurt_text}.
-Terdapat kemungkinan outlier pada data.
-""")
+ Berdasarkan hasil analisis, data kadar gula darah (GLU) memiliki rata-rata sebesar **{mean}**, 
+ median **{median}**, dan modus **{mode}**, yang menunjukkan bahwa pusat data relatif stabil.
+ Nilai standar deviasi sebesar **{std}** menunjukkan bahwa tingkat penyebaran data tergolong sedang.
+ Dari visualisasi boxplot, terlihat adanya kemungkinan **outlier**, yang menunjukkan adanya nilai ekstrem.
+ Distribusi data bersifat **{skew_text}**, dan berdasarkan kurtosis, distribusi bersifat **{kurt_text}**.
+ Secara keseluruhan, data GLU memiliki distribusi yang cukup stabil dengan sedikit penyimpangan pada nilai tertentu.
+        """)""")
 
 # =========================
 # DATA
