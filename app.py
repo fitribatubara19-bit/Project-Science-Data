@@ -116,12 +116,11 @@ else:
 
 st.success(f"""
  Berdasarkan hasil analisis, data kadar gula darah (GLU) memiliki rata-rata sebesar **{mean}**, 
- median **{median}**, dan modus **{mode}**, yang menunjukkan bahwa pusat data relatif stabil.
+median **{median}**, dan modus **{mode}**, yang menunjukkan bahwa pusat data relatif stabil.
  Nilai standar deviasi sebesar **{std}** menunjukkan bahwa tingkat penyebaran data tergolong sedang.
  Dari visualisasi boxplot, terlihat adanya kemungkinan **outlier**, yang menunjukkan adanya nilai ekstrem.
  Distribusi data bersifat **{skew_text}**, dan berdasarkan kurtosis, distribusi bersifat **{kurt_text}**.
- Secara keseluruhan, data GLU memiliki distribusi yang cukup stabil dengan sedikit penyimpangan pada nilai tertentu.
-        """)""")
+ Secara keseluruhan, data GLU memiliki distribusi yang cukup stabil dengan sedikit penyimpangan pada nilai tertentu.""")
 
 # =========================
 # DATA
