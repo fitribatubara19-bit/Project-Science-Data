@@ -25,7 +25,7 @@ st.markdown("---")
 # =========================
 # LOAD DATA OTOMATIS
 # =========================
-file_path = "data_tuton.xlsx"
+file_path = "Data Tugas Tuton STDA4101-2025.2.xlsx"
 
 try:
     df = pd.read_excel(file_path)
